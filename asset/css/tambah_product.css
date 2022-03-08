@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+
+.container-fluid {
+  min-height: 100vh;
+}
+.main-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #5d5c5c;
+}
+.product-text {
+  font-size: 20px;
+}

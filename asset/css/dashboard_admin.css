@@ -1,0 +1,92 @@
+.home-section {
+  position: relative;
+  background: #f5f5f5;
+  min-height: 100vh;
+  width: calc(100% - 240px);
+  left: 240px;
+}
+.sidebar.active ~ .home-section {
+  width: calc(100% - 60px);
+  left: 60px;
+}
+/* dashboard_admin */
+.home-section .home-content {
+  position: relative;
+  padding-top: 15px;
+}
+.home-content .overview-boxes {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 26px;
+}
+.overview-boxes .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 4 - 100px);
+  background: #fff;
+  padding: 15px 14px;
+  margin: 0 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.overview-boxes .box-topic {
+  font-size: 20px;
+  font-weight: 500;
+}
+.home-content .box .number {
+  display: inline-block;
+  font-size: 35px;
+  margin-top: -6px;
+  font-weight: 500;
+}
+.home-content .box .cart {
+  display: inline-block;
+  font-size: 50px;
+  height: 80px;
+  width: 80px;
+  background: #cce5ff;
+  line-height: 80px;
+  text-align: center;
+  color: #66b0ff;
+  border-radius: 12px;
+  margin: 0 0 0 30px;
+}
+.home-content .box .cart.two {
+  color: #2bd47d;
+  background: #c0f2d8;
+}
+.home-content .box .cart.tree {
+  color: #f747bc;
+  background: #ff9ad8;
+}
+.home-content .box .cart.four {
+  color: #aeb908;
+  background: #f0fa6d;
+}
+.home-content .total-order {
+  font-size: 20px;
+  font-weight: 500;
+}
+.home-section .text {
+  display: inline-block;
+  color: #5ea55a;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 18px;
+}
+.home-content.table {
+  display: inline-block;
+  padding: 0 0;
+}
+
+/* user_admin */
+.home-content.table .table-top {
+  background-color: #5ea55a;
+}
+.home-content.table tr {
+  border: #5ea55a solid 2px;
+}
